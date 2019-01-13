@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+h4{
+    margin: 0px;
+    text-align: left;
+}
+
+body{
+    max-width: 1200px;
+    font-family: helvetica;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    background: #b8b8b8;
+}
+header{
+    position: relative;
+    width: 100%;
+    line-height: 100px;
+    background-color: #2196f3;
+    top: 0px;
+    height: 100px;
+}
+.ico{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+}
+header h1{
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+nav{
+    display: flex;
+}
+.itemenu{
+    border-left: 1px white solid;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    flex: 1;
+    background-color: rgb(14, 17, 63);
+    max-height: 28px;
+    transition: 200ms;
+}
+.itemenu:hover{
+    background-color: #f6be4f;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 200ms;
+}
+nav a:hover{
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+    font-size: 22px;
+}
+main{
+    color: #040111;
+    background: #b8b8b8;
+    display: flex;
+    min-height: 1000px;
+    
+}
+
+
+section{
+    padding: 20px;
+    background-color: #ffffff;
+    flex: 80%;
+    transition: 600ms;
+}
+
+
+
+aside{
+    padding: 10px;
+    background-color: #14568b;
+    color: white;
+    flex:20%;
+    text-align: center;
+}
+.img-aside{
+    margin-top: 0px;
+    width: 90%;
+    text-align: center;
+    border-radius: 2px;
+
+}
+aside ul{
+    text-align: left;
+    margin-left: 0px;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(51, 51, 51);
+    margin: 0px;
+    width: 100%;
+}
